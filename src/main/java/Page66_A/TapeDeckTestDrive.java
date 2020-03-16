@@ -5,6 +5,11 @@ public class TapeDeckTestDrive {
         TapeDeck td= new TapeDeck();
         td.canRecord = true;
         td.playTape();
+
+//        td.canRecord() {
+//
+//        }
+
         if (td.canRecord == true)
         {
             td.recordTape();
